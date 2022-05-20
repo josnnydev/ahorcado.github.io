@@ -1,5 +1,6 @@
 body{
-    background: url(img/fondo-ahorcado.png);
+    background: url(img/fondo.png)no-repeat;
+     
     box-sizing: border-box;
      
     height: 610px;
