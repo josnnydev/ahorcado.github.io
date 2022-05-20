@@ -1,5 +1,8 @@
 
 #crear-palabra{
+    position: absolute;
+    bottom: 130px;
+    left: 310px;
     margin: 0 auto;
     width: 500px;
     padding: 100px;
@@ -20,3 +23,33 @@
 .label{
     color: white;
 }
+
+.empezar-juegoCreado{
+    display: none;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    position: relative;
+    top: 30px;
+    
+}
+
+.empezar-juegoCreado:hover{
+   background-color: black;
+   color: white;
+   transform: rotate(5deg);
+
+}
+
+.adv{
+    
+    color: red;
+    display: none;
+    position: absolute;
+    bottom: 179px;
+    font-size: 5.5em;
+    transform: rotate(25deg);
+     
+}
+
+

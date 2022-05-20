@@ -4,6 +4,8 @@ const form = document.getElementById("form");
 const crear = document.getElementById("crear");
 const title = document.getElementById("title2");
 const ocultar = document.getElementById("ocultar");
+const enlace = document.querySelector(".empezar-juegoCreado");
+const adv = document.querySelector(".adv");
  
 const show = document.getElementById("crear-palabrar");
 
@@ -13,6 +15,10 @@ const show = document.getElementById("crear-palabrar");
     form.style.display = "block";
     title.style.display = "block";
     ocultar.style.display = "none";
+    enlace.style.display = "block";
+    adv.style.display = "block";
+      
+
 
     const cabecera = document.querySelector(".cabecera");
 
