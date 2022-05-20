@@ -16,12 +16,14 @@ nuevo.addEventListener("click", iniciar);
 
 function iniciar(Event){
 
- palabras = ["JAVASCRIPT", 
+ palabras = ["COLA", 
 "JOSNNY",
 "BIBLIA", 
 "CIELO",
 "DIOS",
-"PIEDRA"];
+"PIEDRA",
+"ARBOL",
+"POZO"];
 
     
     
