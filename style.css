@@ -43,6 +43,28 @@ header{
  .mensaje{
      color: white;
      font-size: 2em;
+     
+ }
+
+ .mensaje2{
+     color: red;
+     font-size: 3em;
+     position: absolute;
+     top: 299px;
+     right: 780px;
+      
+
+ }
+
+ .mensaje3{
+
+    color: red;
+    font-size: 3em;
+    position: absolute;
+    top:  299px;
+    right: 640px;
+    
+     
  }
 
  footer p{
