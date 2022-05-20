@@ -35,8 +35,7 @@ function empezar(event){
 
     
     form.reset();
-    console.log(palabra_introducida);
-    console.log(palabras)
+     
 
     
      

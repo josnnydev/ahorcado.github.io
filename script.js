@@ -3,7 +3,7 @@ let cant_errores = 0;
 let cant_aciertos = 0;  
 
 let palabras = []; 
-console.log(palabras)
+ 
  
 const nuevo = document.getElementById("nuevo");
 const imagen = document.getElementById( "img-ahorcado" );
@@ -37,10 +37,9 @@ function iniciar(Event){
 
     let palabra_azar = palabras.length; //valor alto, 6 lugares en el array
     const palabras_aleatoria = obtener_random(0, palabra_azar)
-    console.log(palabras_aleatoria)
+    
 
      palabrita = palabras[palabras_aleatoria];
-     console.log(palabrita)
     const cant_letras = palabrita.length;
 
     for(let i = 0; i < btn_letras.length; i++  ){
@@ -99,7 +98,7 @@ function click_letras(event){
          document.getElementById("resultado").innerHTML = "Ganaste";
          game_over();
     }
- console.log(letra+palabra+acertaste)
+  
      } 
 
      function game_over(){
