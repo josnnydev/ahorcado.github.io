@@ -40,6 +40,11 @@ header{
      text-decoration: none;
  }
 
+ .mensaje{
+     color: white;
+     font-size: 2em;
+ }
+
  footer p{
      display: block;
      color: white;
