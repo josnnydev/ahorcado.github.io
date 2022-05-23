@@ -163,4 +163,17 @@ button:hover{
     width: 100vh;
    }
 
+   #letras{
+       position: relative;
+       left: 40px;
+
+       top: 250px;
+   }
+
+   .palabra-aleatoria p span{
+       position: relative;
+       top: 210px;
+       left: 100px;
+   }
+
   }
