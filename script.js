@@ -95,7 +95,7 @@ function click_letras(event){
        document.getElementById("resultado").innerHTML = "sorry suerte para la proxima" + " la palabra era: " + palabrita;
         game_over();
     }else if(cant_aciertos == palabrita.length){
-         document.getElementById("resultado").innerHTML = "Ganaste";
+         document.getElementById("resultado").innerHTML = "Ganaste... wiii!! jugamos de nuevo?";
          game_over();
     }
   
