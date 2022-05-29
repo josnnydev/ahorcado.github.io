@@ -31,22 +31,20 @@ const show = document.getElementById("crear-palabrar");
 
 guardar.addEventListener("click", empezar);
 
-
+palabras;
 function empezar(event){
-   palabras = [];
+      event.preventDefault();
+      let palabra_introducida = form.vacio.value;
+      palabras.push(palabra_introducida);
+      form.reset();
+   }
+   
     
-    event.preventDefault();
-    let palabra_introducida = form.vacio.value;
-    palabras.push(palabra_introducida);
+   
 
-    
-    form.reset();
-     
+ 
 
-    
-     
 
-}
 
 
  

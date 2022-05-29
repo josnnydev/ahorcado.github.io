@@ -2,7 +2,15 @@ let palabrita;
 let cant_errores = 0;  
 let cant_aciertos = 0;  
 
-let palabras = []; 
+var palabras = ["COLA", 
+"JOSNNY",
+"BIBLIA", 
+"CIELO",
+"DIOS",
+"PIEDRA",
+"ARBOL",
+"POZO"];
+console.log(palabras); 
  
  
 const nuevo = document.getElementById("nuevo");
@@ -16,14 +24,7 @@ nuevo.addEventListener("click", iniciar);
 
 function iniciar(Event){
 
- palabras = ["COLA", 
-"JOSNNY",
-"BIBLIA", 
-"CIELO",
-"DIOS",
-"PIEDRA",
-"ARBOL",
-"POZO"];
+
 
     
     
